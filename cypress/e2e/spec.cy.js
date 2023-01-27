@@ -1,4 +1,4 @@
-describe("test",  { testIsolation: false }, () => {
+describe("test", () => {
   it('passes', () => {
     Cypress.on('uncaught:exception', () => false)
     cy.visit("https://central.sophos.com")
